@@ -72,7 +72,7 @@ content:
         #quote: >
         #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          This is the result of my Final Degree Poject (or TFG), a responsive Web App built in <mark>React</mark> for JavaScript. Back-end is built in <mark>Spring Framework</mark> in Java. API is built with <mark>GraphQL</mark> instead of REST.
+          This is the result of my Final Degree Project (or TFG), a responsive Web App built in <mark>React</mark> for JavaScript. Back-end is built in <mark>Spring Framework</mark> in Java. API is built with <mark>GraphQL</mark> instead of REST.
 
 #  - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)
