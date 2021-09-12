@@ -92,9 +92,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: University of Murcia
+        title: Degree in Computer Engineering
         caption: 2016 - 2021
-        sub_title: Degree in Computer Engineering
+        sub_title: University of Murcia
         #quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         #description: | # this will include new lines to allow paragraphs
@@ -102,9 +102,9 @@ content:
 
         #  I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
       - layout: top-middle
-        title: IES Infanta Elena (Jumilla, Murcia)
+        title: Science Bachillerato (research modality)
         caption: 2014 - 2016
-        sub_title: Science Bachillerato (research modality)
+        sub_title: IES Infanta Elena (Jumilla, Murcia)
       #- layout: left
       #  title: Professional Conservatory of Music (Jumilla, Murcia)
       #  caption: 2012 - 2018
