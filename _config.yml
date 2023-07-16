@@ -48,14 +48,31 @@ linkedin_username: inmapg
 # about_title: About Me
 about_profile_image: images/custom-profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Inma and I have just finished the degree in Computer Engineering at University of Murcia. I would like to focus on software development, mainly back-end apps. I am open to learn anything in order to make great projects! 
+  Hi, my name is Inma and I am currently working at NTT Data as a <mark>Salesforce</mark> developer. I also have a degree in Computer Engineering at University of Murcia. I would like to focus on software development, mainly back-end apps. I am open to learn anything in order to make great projects! 
   
 #   As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects # Title for the section
+  - title: Experience
+    layout: list
+    content:
+      - layout: top-middle
+        title: Developer in NTT Data
+        caption: 2022-present
+        description: |
+          <p style="text-align:center; font-size:2.5em">Projects</p>
+          ---
+          <dl style="text-align:center">
+            <dt style="font-size:2.2em">COSMOS (Endesa)</dt>
+            <dd style="font-size:1.5em; font-style:italic">2022-present</dd>
+            <dd style="font-size:1.5em"><mark>Salesforce</mark> developer</dd>
+          </dl>
+          
+          
+
+  - title: Personal Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
@@ -73,6 +90,7 @@ content:
         #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           This is the result of my Final Degree Project (or TFG), a responsive Web App built in <mark>React</mark> for JavaScript. Back-end is built in <mark>Spring Framework</mark> in Java. API is built with <mark>GraphQL</mark> instead of REST.
+          <br>NOTE: Hosting on Heroku was free during the development and realising of the project, but it is not anymore, so the webapp is no longer accessible.
 
 #  - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)
@@ -92,6 +110,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
+        title: B1 in English
+        caption: 2022 - 2023
+        sub_title: Escuela Oficial de Idiomas - EOI Molina (Jumilla, Murcia)
+        #
+      - layout: top-middle
         title: Degree in Computer Engineering
         caption: 2016 - 2021
         sub_title: University of Murcia
@@ -105,18 +128,27 @@ content:
         title: Science Bachillerato (research modality)
         caption: 2014 - 2016
         sub_title: IES Infanta Elena (Jumilla, Murcia)
+      
+      - layout: top-middle
+        title: Professional Music Education (Clarinet specialty)
+        caption: 2012 - 2018
+        sub_title: Conservatorio Profesional de Música "Julián Santos" (Jumilla, Murcia)
+
       #- layout: left
       #  title: Professional Conservatory of Music (Jumilla, Murcia)
       #  caption: 2012 - 2018
       #  sub_title: Clarinet studies
 
-  - title: A Little More About Me
+  - title: A Little Bit More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
+      Alongside my interests in software engineering, some of my other interests and hobbies are:
       - Listening to music
       - Playing music
+      - Reading
       - Learning
+
+      I am also an active member of a symphonic band in my town where I play clarinet. ☺️
 #      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 #
 #      Look at this cool image  
