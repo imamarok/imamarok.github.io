@@ -46,7 +46,7 @@ linkedin_username: inmapg
 
 # About Section
 # about_title: About Me
-about_profile_image: images/custom-profile.jpg
+about_profile_image: images/custom-profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Inma and I am currently working at NTT Data as a <mark>Salesforce</mark> developer. I also have a degree in Computer Engineering at University of Murcia. I would like to focus on software development, mainly back-end apps. I am open to learn anything in order to make great projects! 
   
@@ -90,7 +90,12 @@ content:
         #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           This is the result of my Final Degree Project (or TFG), a responsive Web App built in <mark>React</mark> for JavaScript. Back-end is built in <mark>Spring Framework</mark> in Java. API is built with <mark>GraphQL</mark> instead of REST.
-          <br>NOTE: Hosting on Heroku was free during the development and realising of the project, but it is not anymore, so the webapp is no longer accessible.
+          <br>NOTE: Hosting on Heroku was free during the development and deployment of the project, but it is not anymore, so the webapp is no longer accessible.
+      - layout: top-middle
+        title: Shutdown-Windows
+        description: |
+          This little app is something my father requested me in order to shut down his PC specifying an hour. However, I decided to code it instead of searching for an existing solution so I could learn a bit of <mark>.NET MAUI</mark>. The outcome is a very simple window which allows to shut down the PC at the indicated time using the <mark>shutdown</mark> cmd command, as well as to cancel the shutdown request.
+
 
 #  - title: Experience # Title for the section
 #    layout: list # Type of content section (list/text)
